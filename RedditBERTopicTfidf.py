@@ -4,6 +4,7 @@ import datetime
 import configparser
 import re
 import spacy
+import nltk
 from nltk.corpus import stopwords
 from bertopic import BERTopic
 from sentence_transformers import SentenceTransformer
