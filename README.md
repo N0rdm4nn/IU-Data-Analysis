@@ -16,6 +16,10 @@ This repository contains a Python-based data analysis project. The project focus
   - Identifying key topics in German Reddit posts.
 - **Visualization**:
   - Interactive topic visualizations using BERTopic.
+- **Entity Analysis**:
+  - Representation of top submissions according to score
+  - Representation of most active authors
+
 
 
 ---
@@ -26,5 +30,7 @@ This repository contains a Python-based data analysis project. The project focus
 Ensure you have the following available:
 - Python 3.8 or higher
 - Redit API Key (register a useraccount on Reddit, then go to https://www.reddit.com/prefs/apps to obtain the API key)
+- Install the German language model (de_core_news_md) for the spaCy library 
+```python -m spacy download de_core_news_sm```
 
 ### Clone the Repository
