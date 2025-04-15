@@ -34,3 +34,11 @@ Ensure you have the following available:
 ```python -m spacy download de_core_news_sm```
 
 ### Clone the Repository
+
+### Run the code
+- either use the provided sample data and run RedditBERTopicTfidf.py
+- OR if a Reddit API Key is available:
+  - insert credentials into the config.ini
+  - choose a subreddit and number of submissions that should be downloaded (lines 44 & 45)
+  - uncomment line 104 and comment line 107
+
