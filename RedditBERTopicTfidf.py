@@ -101,11 +101,11 @@ def fetch_reddit_data(subreddit):
 
 
 # either execute data collection; uncomment to start
-#fetch_reddit_data(subreddit)
+#raw_data = fetch_reddit_data(subreddit)
 
 # or import raw data
 raw_data = pd.read_csv("20250316_151312_subreddit_posts_kassel.csv") # modify filename for raw data input
-print(raw_data.head())
+#print(raw_data.head())
 
 # merge title and text and remove NaN values which may lead to error
 raw_data["title"] = raw_data["title"].fillna("")
