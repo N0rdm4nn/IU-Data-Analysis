@@ -30,13 +30,14 @@ This repository contains a Python-based data analysis project. The project focus
 Ensure you have the following available:
 - Python 3.8 or higher
 - Redit API Key (register a useraccount on Reddit, then go to https://www.reddit.com/prefs/apps to obtain the API key)
-- Install the German language model (de_core_news_md) for the spaCy library 
-```python -m spacy download de_core_news_sm```
+
 
 ### Clone the Repository
 - install requirements: pip install- -r requirements.txt
   - sometimes there occurs an error when installing HDBSCAN. If this happens, additionally install following packages
     ```apt-get install python3.12-dev build essential```
+- Install the German language model (de_core_news_md) for the spaCy library 
+```python -m spacy download de_core_news_sm```
 
 ### Run the code
 - either use the provided sample data and run RedditBERTopicTfidf.py
