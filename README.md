@@ -34,6 +34,9 @@ Ensure you have the following available:
 ```python -m spacy download de_core_news_sm```
 
 ### Clone the Repository
+- install requirements: pip install- -r requirements.txt
+  - sometimes there occurs an error when installing HDBSCAN. If this happens, additionally install following packages
+    ```apt-get install python3.12-dev build essential```
 
 ### Run the code
 - either use the provided sample data and run RedditBERTopicTfidf.py
